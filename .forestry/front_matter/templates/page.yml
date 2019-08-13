@@ -23,6 +23,24 @@ fields:
   default: page
   config:
     required: true
+- name: inhalte
+  type: field_group_list
+  fields:
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Inhalte
+  hidden: false
 pages:
 - content/style-guide.md
 - content/about.md
