@@ -32,6 +32,19 @@ fields:
   default: project
   config:
     required: true
+- name: inhalte
+  type: field_group_list
+  fields:
+  - name: text
+    type: text
+    config:
+      required: false
+    label: Text
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Inhalte
 pages:
 - content/projects/project-1.md
 - content/projects/project-7.md
