@@ -6,6 +6,7 @@ thumb_img_path: images/1_thumb.jpg
 content_img_path: images/1.jpg
 layout: project
 inhalte:
+- text: Text 2
 - text: Das ist Text 1
 
 ---
