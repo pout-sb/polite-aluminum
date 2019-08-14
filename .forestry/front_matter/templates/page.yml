@@ -35,6 +35,10 @@ fields:
       schema:
         format: markdown
     label: Text
+  - name: gallerie
+    type: image_gallery
+    config: {}
+    label: Gallerie
   config:
     min: 
     max: 
